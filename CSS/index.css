@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.Totalbody {
+    width: 100%;
+}
+
+
+.header {
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #f2f2f2;
+    position: sticky;
+    top: 0;          
+    background-color: #ffffff;
+    z-index: 1000;  
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.menubar {
+    width: 1350px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menubar h1 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.menubar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.menubar ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.menubar ul li a.active {
+    color: #FF385C;
+    border-bottom: 2px solid #FF385C;
+    padding-bottom: 5px;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+}
+
+.header-icons p {
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+.header-icons img {
+    width: 20px;
+    margin-left: 15px;
+}
+
+/* Banner Styles */
+.Banner {
+    width: 100%;
+    height: 520px;
+    background-image: url('C:/Users/injam/Desktop/Nestora/Image/Banner 2.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 150px;
+}
+
+.search-box {
+    width: 850px;
+    height: 75px;
+    background: #fff;
+    margin: auto;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px 0 35px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+
+.search-item {
+    flex: 1;
+}
+
+.search-item p {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.search-item span {
+    font-size: 14px;
+    color: #717171;
+}
+
+.border-line {
+    border-left: 1px solid #ddd;
+    padding-left: 25px;
+}
+
+.search-icon-bg {
+    width: 55px;
+    height: 55px;
+    background: #FF385C;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-icon-bg img {
+    width: 18px;
+}
+
+/* Card Section */
+.home-collection {
+    width: 100%;
+    padding: 60px 0;
+}
+
+.container {
+    width: 1350px;
+    margin: auto;
+}
+
+.home-collection h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 20px;
+    row-gap: 20px; 
+}
+
+.home-card img {
+    width: 100%;
+    height: 180px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.home-card h4 {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.home-card p {
+    font-size: 13px;
+    color: #717171;
+    margin-top: 4px;
+}
+
+/* Footer Styles */
+.footer-section {
+    width: 100%;
+    background: #F7F7F7;
+    padding: 50px 0;
+}
+
+.footer-container {
+    width: 1350px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-col h3, .footer-col h4 {
+    margin-bottom: 20px;
+}
+
+.socials img {
+    width: 18px;
+    margin-right: 12px;
+}
+
+.footer-col p {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #444;
+}
