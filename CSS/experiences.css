@@ -78,7 +78,7 @@ body {
 .Banner {
     width: 100%;
     height: 450px;
-    background-image: url('C:/Users/injam/Desktop/Nestora/Image/Banner.jpg');
+    background-image: url('./Image/Banner.jpg');
     background-size: cover;
     background-position: center;
 }
